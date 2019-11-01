@@ -24,4 +24,4 @@ both the method's parameters and to the `originalValue`. The return value of the
 to the client.
 
 # Example
-See [./src/decorate.test.ts](the test)
+See [src/decorate.test.ts](the test)
