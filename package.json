@@ -16,7 +16,8 @@
     "mocha": "^6.2.2"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register src/**/*.test.ts"
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "build": "./node_modules/.bin/tsc"
   },
   "keywords": [
     "decoration",
