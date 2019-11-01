@@ -1,5 +1,5 @@
 Helps decorate JavaScript objects using the 
-[https://en.wikipedia.org/wiki/Decorator_pattern](Decorator Pattern).
+(https://en.wikipedia.org/wiki/Decorator_pattern)[Decorator Pattern].
 
 # Motivation
 The decorator pattern works well for classes, when you know the exact interface and exactly which methods you want to 
@@ -24,4 +24,4 @@ both the method's parameters and to the `originalValue`. The return value of the
 to the client.
 
 # Example
-See [src/decorate.test.ts](the test)
+See (src/decorate.test.ts)[the tests].
