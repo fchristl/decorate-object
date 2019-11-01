@@ -4,16 +4,17 @@
   "description": "Decorate objects in JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/fchristl/decorate-object",
   "dependencies": {
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.4",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.3",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
   },
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.test.ts",
