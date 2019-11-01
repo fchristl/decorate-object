@@ -1,12 +1,11 @@
 {
   "name": "decorate-object",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Decorate objects in JavaScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/fchristl/decorate-object",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.2.4",
     "@types/mocha": "^5.2.7",
