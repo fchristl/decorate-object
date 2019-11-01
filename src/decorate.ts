@@ -25,7 +25,7 @@ export function decorate<T extends Object>(delegate: T, decoratorFactory: Decora
                 return delegate[p];
             }
             return (...args: any) => {
-                const valueFromDelegate = (delegate[p] as unknown as Function)(args);
+                const valueFromDelegate = (delegate[p] as unknown as Function)(...args);
                 const decorated = decoratorFactory(valueFromDelegate);
                 if (decorated[p] == null) {
                     return valueFromDelegate;
